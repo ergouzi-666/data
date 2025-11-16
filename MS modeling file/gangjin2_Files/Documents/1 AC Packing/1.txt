@@ -1,0 +1,87 @@
+
+Module                          : Amorphous Cell
+Version                         : 2020
+Build date                      : Oct 18 2019
+Host                            : DESKTOP-APG3I6O
+Operating system                : Windows
+Task started                    : Tue Jun  3 16:40:02 2025
+
+
+Random number seed              : 215374687
+
+
+---- Amorphous Cell calculation ----
+
+Task                            : Packing
+Density                         : 1.050 g/cc
+Number of frames                : 1
+Optimize geometry               : yes
+Loading steps                   : 1000
+Check ring spearing             : yes
+Restrain rings                  : no
+Check close contacts            : no
+Check energies                  : yes
+Bias temperature                : 298.000 K
+Look ahead                      : 1
+
+Framework charge                : 0.000 e per cell
+
+ | Component            | Charge      | Loading     |
+ |                      |             |             |
+ |___________________________________________________
+ | Poly3D Atomistic (2) |       0.000 |          12 |
+
+
+
+
+---- Packing task parameters ----
+
+Pack in isosurface              : no
+
+
+
+---- Energy parameters ----
+
+Forcefield                      : pcff (Version 3.1)
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 0.001 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+
+
+---- Configurational Bias Monte Carlo method parameters ----
+
+ | Component            | Head bias   | Torsion     | Torsion     |
+ |                      | steps       | twisters    | bias steps  |
+ |_________________________________________________________________
+ | Poly3D Atomistic (2) |          10 |         397 |          10 |
+
+Frame 1:  Loading steps 3
+
+
+---- Geometry optimization ----
+
+Energy units          : kcal/mol
+
+   Frame     Converged         Total      Non-bond        H-bond van der Waals Electrostatic        3-Body      Diagonal          Bond         Angle       Torsion     Inversion   Cross terms
+
+       1            No      2643.741      5560.959         0.000      5200.792       360.167         0.000     -1050.668      1817.426      7269.391    -10137.485         0.000     -1866.550
+
+
+
+Task terminated                 : Tue Jun  3 20:06:46 2025
+
+Total CPU time used             : 3:24:15 hours
+
+ERROR: No successful configurations after ring spearing check.
+
+Termination status              : Error

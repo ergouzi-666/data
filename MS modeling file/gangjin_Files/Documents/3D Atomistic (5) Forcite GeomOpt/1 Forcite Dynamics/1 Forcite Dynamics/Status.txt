@@ -1,0 +1,37 @@
+Dynamics status
+
+Step     : 200000
+CPU time : 0:13:02
+Time     : 15:38:25
+
+Total enthalpy                  : 8673.586 kcal/mol
+Total energy                    : 8455.445 kcal/mol
+Temperature                     :  276.666 K
+Pressure                        :    0.007 GPa
+Volume                          : 216000.000 A^3
+Density                         :    0.138 g/cm^3
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  : 8213.968
+    Bond                        :  202.283
+    Angle                       :  219.164
+    Torsion                     : 7685.897
+    Inversion                   :  106.623
+  Valence energy (cross terms)  : -141.505
+    Stretch-Stretch             :    3.651
+    Stretch-Bond-Stretch        :   -8.769
+    Stretch-Torsion-Stretch     : -140.387
+    Separated-Stretch-Stretch   :    7.662
+    Torsion-Stretch             :    4.876
+    Bend-Bend                   :    0.809
+    Torsion-Bend-Bend           :   -7.043
+    Bend-Torsion-Bend           :   -2.303
+  Non-bond energy               :  -34.311
+    Hydrogen bond               :    0.000
+    van der Waals               :  -35.551
+    Electrostatic               :    4.506
+    3-Body                      :    0.000
+  Restraint energy              :    0.000
+
+Cell parameters:     a:  60.00 A       b:  60.00 A        c:  60.00 A
+                 alpha:  90.00 deg  beta:  90.00 deg  gamma:  90.00 deg

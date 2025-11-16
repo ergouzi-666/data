@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="20.1">
+<LOGICS>
+<LOGICITEM NAME="DendrimerLogic">
+	<STATE NAME="DendrimerLogicState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="PolymerBuilderLogic">
+	<STATE NAME="PolymerBuilderLogicState" VERSION="20.1">
+	<PROPERTIES>
+	<PROPERTY NAME="HomoPRepeatUnitName">
+	<VALUE>3D Atomistic (2)</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="HomoPRepeatUnitLibrary">
+	<VALUE>Current project</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="HomopolymerChainLength">
+	<VALUE>10</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="HomopolymerOIDs">
+	<VALUE>
+	<ITEM>262931</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="HomopolymerInitTermOIDs">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RepeatUnitLogic">
+	<STATE NAME="RepeatUnitLogicState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ScriptedBlockCopolymerBuilder">
+	<STATE NAME="ScriptedBlockCopolymerBuilderState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ScriptedHomopolymerBuilder">
+	<STATE NAME="ScriptedHomopolymerBuilderState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ScriptedRandomCopolymerBuilder">
+	<STATE NAME="ScriptedRandomCopolymerBuilderState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

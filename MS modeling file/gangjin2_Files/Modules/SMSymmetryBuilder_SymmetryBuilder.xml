@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="20.1">
+<LOGICS>
+<LOGICITEM NAME="FindSymmetryLogic">
+	<STATE NAME="SymmetryBuilderFindSymmetryState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="MillerPlaneLogic">
+	<STATE NAME="SymmetryBuilderMillerPlaneState" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="SymmetryBuilderLogic">
+	<STATE NAME="SymmetryBuilderLogicState" VERSION="20.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SourceDocumentID">
+	<VALUE>{E4087768-E064-4A42-BA99-40FAA6A92C2F}</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveDirection">
+	<VALUE>
+	<ITEM>-1</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveUVector">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>1.</ITEM>
+	<ITEM>1.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveVVector">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>1.</ITEM>
+	<ITEM>-1.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveOrigin">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

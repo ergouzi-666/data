@@ -1,0 +1,34 @@
+Geometry optimization status
+
+Iteration:   670
+
+Total enthalpy                  : -269.391642 kcal/mol
+  External pressure term        : 0.000000 kcal/mol
+
+Total energy                    :        -269.391642 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        -262.055
+    Bond                        :           2.090
+    Angle                       :          24.998
+    Torsion                     :        -289.142
+    Inversion                   :           0.000
+  Valence energy (cross terms)  :         -10.057
+    Stretch-Stretch             :           0.035
+    Stretch-Bend-Stretch        :          -2.040
+    Stretch-Torsion-Stretch     :          -0.206
+    Separated-Stretch-Stretch   :           0.000
+    Torsion-Stretch             :           1.863
+    Bend-Bend                   :           0.503
+    Torsion-Bend-Bend           :          -2.177
+    Bend-Torsion-Bend           :          -8.035
+  Non-bond energy               :           2.720
+    van der Waals               :          -3.198
+    Long range correction       :          -1.354
+    Electrostatic               :           7.273
+ 
+rms force  :  9.653E-02 kcal/mol/A     
+max force  :  5.063E-01 kcal/mol/A
+       
+Cell parameters:    a:  60.000000 A    b:  60.000000 A    c:  60.000000 A   
+                alpha:  90.000 deg  beta:  90.000 deg gamma:  90.000 deg

@@ -1,0 +1,3 @@
+Amorphous Cell calculation complete
+Status                          : Error
+Error description               : No successful configurations after ring spearing check.

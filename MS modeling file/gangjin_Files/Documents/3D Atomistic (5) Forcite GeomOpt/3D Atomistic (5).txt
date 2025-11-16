@@ -1,0 +1,111 @@
+Forcite
+-------
+Task             : Geometry Optimization
+Version          : 2020
+Build date       : Oct 18 2019
+Host             : DESKTOP-APG3I6O
+Threads          : Parallel 20
+Operating system : Windows
+Task started     : Tue May 27 15:09:11 2025
+
+---- Geometry optimization parameters ----
+
+Algorithm                       : Smart
+Convergence tolerance:
+  Energy                        : 0.001 kcal/mol
+  Force                         : 0.5 kcal/mol/A
+Maximum number of iterations    : 10000
+External pressure               : 0 GPa
+Motion groups rigid             : NO
+Optimize cell                   : NO
+
+---- Energy parameters ----
+
+Forcefield                      : pcff (Version 3.1)
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 0.001 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Long range correction         : YES
+  Buffer width                  : 0.5 A
+
+
+---- Initial structure ----
+
+Total enthalpy                  : 10648.774068 kcal/mol
+  External pressure term        : 0.000000 kcal/mol
+
+Total energy                    :       10648.774068 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        9019.701
+    Bond                        :          40.300
+    Angle                       :          41.356
+    Torsion                     :        8848.748
+    Inversion                   :          89.297
+  Valence energy (cross terms)  :        -139.055
+    Stretch-Stretch             :           5.390
+    Stretch-Bend-Stretch        :          -4.707
+    Stretch-Torsion-Stretch     :        -168.461
+    Separated-Stretch-Stretch   :          11.809
+    Torsion-Stretch             :          15.534
+    Bend-Bend                   :           0.897
+    Torsion-Bend-Bend           :          -5.909
+    Bend-Torsion-Bend           :           6.392
+  Non-bond energy               :        1768.129
+    van der Waals               :        1763.560
+    Long range correction       :          -3.607
+    Electrostatic               :           8.175
+ 
+rms force  :  2.868E+01 kcal/mol/A     
+max force  :  2.442E+02 kcal/mol/A
+       
+Cell parameters:    a:  60.000000 A    b:  60.000000 A    c:  60.000000 A   
+                alpha:  90.000 deg  beta:  90.000 deg gamma:  90.000 deg
+
+---- Final structure ----
+
+Total enthalpy                  : 9100.984239 kcal/mol
+  External pressure term        : 0.000000 kcal/mol
+
+Total energy                    :        9100.984239 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        9008.925
+    Bond                        :          49.767
+    Angle                       :          34.641
+    Torsion                     :        8821.415
+    Inversion                   :         103.102
+  Valence energy (cross terms)  :        -152.756
+    Stretch-Stretch             :           4.516
+    Stretch-Bend-Stretch        :          -6.442
+    Stretch-Torsion-Stretch     :        -168.466
+    Separated-Stretch-Stretch   :          10.490
+    Torsion-Stretch             :           5.761
+    Bend-Bend                   :           0.686
+    Torsion-Bend-Bend           :          -2.408
+    Bend-Torsion-Bend           :           3.108
+  Non-bond energy               :         244.815
+    van der Waals               :         240.705
+    Long range correction       :          -3.607
+    Electrostatic               :           7.718
+ 
+rms force  :  4.567E-02 kcal/mol/A     
+max force  :  2.316E-01 kcal/mol/A
+       
+Cell parameters:    a:  60.000000 A    b:  60.000000 A    c:  60.000000 A   
+                alpha:  90.000 deg  beta:  90.000 deg gamma:  90.000 deg
+
+
+
+Task terminated               : Tue May 27 15:09:18 2025
+Total CPU time used by Forcite: 7 seconds (7.05s)
+
+Termination status : Normal

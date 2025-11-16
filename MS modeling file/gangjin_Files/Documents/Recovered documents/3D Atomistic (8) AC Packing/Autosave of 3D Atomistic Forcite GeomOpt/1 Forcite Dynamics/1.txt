@@ -1,0 +1,77 @@
+Forcite
+-------
+Task             : Dynamics
+Version          : 2020
+Build date       : Oct 18 2019
+Host             : DESKTOP-APG3I6O
+Threads          : Parallel 60
+Operating system : Windows
+Task started     : Wed May 14 09:27:49 2025
+
+---- Dynamics parameters ----
+
+Ensemble                        : NPT
+Temperature                     : 300.00 K
+  Control method                : Andersen
+  Collision ratio               : 1.0000000
+Pressure                        : 0 GPa
+  Control method                : Berendsen
+  Decay constant                : 0.1000000 ps
+Timestep                        : 1.00 fs
+Number of steps                 : 300000
+Duration                        : 300 ps
+Initial velocities              : Random
+Random number seed              : 1747186069
+
+---- Energy parameters ----
+
+Forcefield                      : pcff (Version 3.1)
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 0.001 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Long range correction         : YES
+  Buffer width                  : 0.5 A
+
+
+Energy contributors using automatic parameters:
+    Angle Bend                  : (c cp c) 
+    Torsion                     : (c c c cp), (c c cp c), (cp c cp c), (c cp cp c), 
+                                : (cp c c cp) 
+    Inversion                   : (cp c c cp), (cp c cp c) 
+
+---- Thermostat ----
+
+Andersen collision period: every 2248 steps.
+
+
+Using multiple time step dynamics. Long time step : 4 short steps
+
+
+---- Dynamics summary ----
+
+                             Initial        Final      Average    Std. Dev.
+                             -------        -----      -------    ---------
+Tot. energy (kcal/mol)     253615.911    219177.716    220241.520     3135.326
+Pot. energy (kcal/mol)     235236.558    199869.015    200616.822     1792.111
+Kin. energy (kcal/mol)     18379.353    19308.701    19624.699     1368.253
+Tot. enthalpy (kcal/mol)   407340.154    219039.501    220238.970     3210.815
+Temperature (K)              300.000      315.169      320.327       22.334
+Pressure (GPa)                 4.768       -0.005       -0.000        0.018
+Volume (A^3)               224000.000    205585.423    209065.977     5968.027
+Density (g/cm^3)               0.990        1.078        1.061        0.027
+
+
+
+
+Task terminated               : Wed May 14 15:07:29 2025
+Total CPU time used by Forcite: 5:39:40 hours (20379.5s)
+
+Termination status : Normal

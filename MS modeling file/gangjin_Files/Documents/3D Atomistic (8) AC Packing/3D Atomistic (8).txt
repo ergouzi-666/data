@@ -1,0 +1,84 @@
+
+Module                          : Amorphous Cell
+Version                         : 2020
+Build date                      : Oct 18 2019
+Host                            : DESKTOP-APG3I6O
+Operating system                : Windows
+Task started                    : Tue May 13 14:38:51 2025
+
+
+Random number seed              : 955782113
+
+
+---- Amorphous Cell calculation ----
+
+Task                            : Packing
+Density                         : 1.000 g/cc
+Number of frames                : 1
+Optimize geometry               : yes
+Loading steps                   : 1000
+Check ring spearing             : yes
+Restrain rings                  : no
+Check close contacts            : no
+Check energies                  : yes
+Bias temperature                : 298.000 K
+Look ahead                      : 1
+
+Framework charge                : 0.000 e per cell
+
+ | Component   | Charge      | Loading     |
+ |             |             |             |
+ |__________________________________________
+ | Polype (2)  |       0.000 |          51 |
+
+
+
+
+---- Packing task parameters ----
+
+Pack in isosurface              : no
+
+
+
+---- Energy parameters ----
+
+Forcefield                      : pcff (Version 3.1)
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 0.001 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+
+
+---- Configurational Bias Monte Carlo method parameters ----
+
+ | Component   | Head bias   | Torsion     | Torsion     |
+ |             | steps       | twisters    | bias steps  |
+ |________________________________________________________
+ | Polype (2)  |          10 |          97 |          10 |
+
+
+
+---- Geometry optimization ----
+
+Energy units          : kcal/mol
+
+   Frame     Converged         Total      Non-bond        H-bond van der Waals Electrostatic        3-Body      Diagonal          Bond         Angle       Torsion     Inversion   Cross terms
+
+       1            No     -7592.925       339.331         0.000       -71.478       410.809         0.000     -6851.180       773.075      3754.819    -11379.074         0.000     -1081.076
+
+
+
+Task terminated                 : Tue May 13 18:14:14 2025
+
+Total CPU time used             : 3:35:11 hours
+
+Termination status              : Normal

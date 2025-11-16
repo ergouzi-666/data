@@ -1,0 +1,71 @@
+Forcite
+-------
+Task             : Dynamics
+Version          : 2020
+Build date       : Oct 18 2019
+Host             : DESKTOP-APG3I6O
+Threads          : Parallel 60
+Operating system : Windows
+Task started     : Wed May 28 09:14:01 2025
+
+---- Dynamics parameters ----
+
+Ensemble                        : NVT
+Temperature                     : 298.00 K
+  Control method                : Nose
+  Q ratio                       : 0.0100000
+Timestep                        : 1.00 fs
+Number of steps                 : 200000
+Duration                        : 200 ps
+Initial velocities              : Random
+Random number seed              : 1748394841
+
+---- Energy parameters ----
+
+Forcefield                      : COMPASSII (Version 1.2)
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 0.001 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Long range correction         : YES
+  Buffer width                  : 0.5 A
+
+
+---- Thermostat ----
+
+Nose mass parameter, Q mass: 5.36521 kcal/mol*ps^2
+
+
+---- Constraints ----
+
+Position constraints            : 1170
+Using multiple time step dynamics. Long time step : 4 short steps
+
+
+---- Dynamics summary ----
+
+                             Initial        Final      Average    Std. Dev.
+                             -------        -----      -------    ---------
+Tot. energy (kcal/mol)        89.442       71.755       94.251       19.463
+Pot. energy (kcal/mol)      -178.819     -167.487     -174.014       14.294
+Kin. energy (kcal/mol)       268.261      239.241      268.265       12.804
+Tot. enthalpy (kcal/mol)     -17.169     -198.283       -5.128      147.725
+Temperature (K)              298.000      265.764      298.005       14.224
+Pressure (GPa)                -0.003       -0.009       -0.003        0.005
+Volume (A^3)               216000.000    216000.000    216000.000        0.000
+Density (g/cm^3)               0.119        0.119        0.119        0.000
+
+
+
+
+Task terminated               : Wed May 28 09:21:36 2025
+Total CPU time used by Forcite: 7:35 minutes (454.55s)
+
+Termination status : Normal

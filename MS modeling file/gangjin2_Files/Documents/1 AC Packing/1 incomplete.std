@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="latin1"?>
+<studyTableDocument>
+	<data>
+		<models/>
+		<predictions/>
+		<fields>
+			<field id="Structure" type="structure" userdata="Structure" description="Structure"/>
+		</fields>
+		<systems>
+			<system id="{F0CE319C-E075-465B-BED9-DA7E2056B664}">
+				<datum status="1">
+					<containedObject url=".\\1 speared - 1.xsd" name="1 speared - 1"/>
+				</datum>
+			</system>
+		</systems>
+	</data>
+	<sheets activeSheet="0">
+		<cellStyles/>
+		<sheet title="Sheet 1" id="{BC4E7F14-A6C5-4338-B42D-A7C2970404C5}">
+			<rows defaultHeight="30" headerWidth="20">
+				<row sysId="{F0CE319C-E075-465B-BED9-DA7E2056B664}"/>
+			</rows>
+			<columns defaultWidth="85" headerHeight="45">
+				<column fieldId="Structure" width="105"/>
+			</columns>
+			<cells>
+				<styles>
+					<styleRef>0</styleRef>
+				</styles>
+				<colors>
+					<block>,</block>
+				</colors>
+			</cells>
+		</sheet>
+	</sheets>
+</studyTableDocument>
